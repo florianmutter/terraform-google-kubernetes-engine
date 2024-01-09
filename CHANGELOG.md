@@ -6,6 +6,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Extending the adopted spec, each change should have a link to its corresponding pull request appended.
 
+## [30.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v29.0.0...v30.0.0) (2024-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **TPG>=5.6:** use hub membership location for output ([#1824](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1824))
+* Revert create least privilege default service account ([#1757](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1757)) (#1827)
+* **TF>=1.1:** Configure ASM management mode ([#1702](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1702))
+
+### Features
+
+* add advanced datapath observability config option ([#1776](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1776)) ([90e9bdf](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/90e9bdfb2a348ab22d996711e477cc6a7aa27c28))
+* Add support for configuring allow_net_admin in autopilot clusters ([#1768](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1768)) ([493149d](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/493149d37aa13bbda1fc8dbcaec1b40f051c642e))
+* add support for pod_range in private cluster ([#1803](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1803)) ([9c62f1f](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/9c62f1f53afacf664528f9b3187c7e5df8eea1fa))
+* dual stack (IPV4_IPV6) support ([#1818](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1818)) ([d6cb390](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/d6cb39062cc6ecc2f86af463afd883d1fd780657))
+* **TF>=1.1:** Configure ASM management mode ([#1702](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1702)) ([a9de2d7](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/a9de2d79d68b19dfee5b6bd8ee0c646ee621bbee))
+* **TPG>=5.6:** use hub membership location for output ([#1824](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1824)) ([13e79af](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/13e79af0f7a99b8c20099431df4a14ee145f9b03))
+
+
+### Bug Fixes
+
+* alpha option for cluster creation ([#1796](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1796)) ([67b67f3](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/67b67f38e46306c7a4e0a1690d7fcb9b551874e1))
+* Revert create least privilege default service account ([#1757](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1757)) ([#1827](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1827)) ([0d7f638](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/0d7f63858d283ffb6c66d9f3a162ee0845db57f0))
+
 ## [29.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v28.0.0...v29.0.0) (2023-11-02)
 
 
